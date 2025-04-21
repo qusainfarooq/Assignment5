@@ -5,6 +5,6 @@ description = "Data encryption with Streamlit"
 authors = ["qusainfarooq"]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.9.7 || >3.9.7,<3.13"
+python = ">=3.10,<3.11"  # explicitly match 3.10.12
 streamlit = "^1.30.0"
 cryptography = "^44.0.2"

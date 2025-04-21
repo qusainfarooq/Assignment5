@@ -1,11 +1,10 @@
-[project]
-name = "05-data-encryption"
+[tool.poetry]
+name = "assignment5"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.8,<3.13"
-dependencies = [
-    "cryptography>=44.0.2",
-    "cryptography-fernet>=0.1.0",
-    "streamlit==1.30.0"
-]
+description = "Data encryption with Streamlit"
+authors = ["qusainfarooq"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+streamlit = "^1.30.0"
+cryptography = "^44.0.2"

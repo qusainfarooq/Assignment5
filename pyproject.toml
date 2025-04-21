@@ -7,5 +7,5 @@ requires-python = ">=3.8,<3.13"
 dependencies = [
     "cryptography>=44.0.2",
     "cryptography-fernet>=0.1.0",
-    "streamlit>=1.44.1",
+    "streamlit==1.30.0"
 ]
